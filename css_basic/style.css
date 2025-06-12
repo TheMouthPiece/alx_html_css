@@ -6,6 +6,12 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
 /* Main should be a horizontal row */
 main {
   display: flex;
@@ -13,26 +19,25 @@ main {
   flex: auto;
 }
 
+footer {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
 /* Article takes 2/3 of the space */
 article {
-  flex: 2;
-  overflow-y: auto; /* Add scroll if needed */
-  padding: 1em;
-  background-color: #f9f9f9;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
 }
 
 /* Aside takes 1/3 of the space */
 aside {
-  flex: 1;
-  overflow-y: auto;
-  padding: 1em;
-  background-color: #eaeaea;
+  background-color: #eee;
+  padding: 20px;
 }
 
 /* Simple styles for header and footer */
 header,
-footer {
-  background-color: #ccc;
-  padding: 1em;
-  text-align: center;
-}
